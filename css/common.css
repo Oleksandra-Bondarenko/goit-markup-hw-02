@@ -3,6 +3,7 @@ body {
     color: #434455;
     background-color: #FFFFFF;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 ul,
@@ -25,31 +26,23 @@ a {
     color: #FFFFFF;
 }
 
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
 .color-accent {
     color: #4D5AE5;
 }
 
-.header-logo {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2E2F42;
-}
-
-h3 {
+.team-name,
+.feature-name,
+.portfolio-name {
     font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--navy-blue);
-}
-
-p {
-font-weight: 400;
-font-size: 16px; 
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--slate);
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
 }
